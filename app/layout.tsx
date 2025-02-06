@@ -17,6 +17,9 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   title: "Sergey's Portfolio",
   description: "Minimalist JS Portfolio",
+  icons: {
+    icon: "/next-js.svg",
+  },
 };
 
 export default function RootLayout({
