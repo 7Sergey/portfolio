@@ -9,6 +9,7 @@ import { useState } from "react";
 import animationData from "@/data/confetti.json";
 import TailwindButton from "./TailwindButton";
 import { IoCopyOutline } from "react-icons/io5";
+import { BackgroundGradientAnimation } from "./GradientBg";
 
 export const BentoGrid = ({
   className,
@@ -97,6 +98,12 @@ export const BentoGridItem = ({
             />
           )}
         </div>
+
+        {id === 6 && (
+          <BackgroundGradientAnimation>
+            <div className="absolute z-50 flex items-center justify-center text-white font-bold" />
+          </BackgroundGradientAnimation>
+        )}
 
         <div
           className={cn(
