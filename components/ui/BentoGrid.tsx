@@ -4,7 +4,7 @@ import { cn } from "@/lib/utils";
 
 // import TailwindButton from "./TailwindButton";
 import { Cover } from "./Cover";
-import Lottie from "react-lottie";
+import Lottie from "lottie-react";
 import { useState } from "react";
 import animationData from "@/data/confetti.json";
 import TailwindButton from "./TailwindButton";
@@ -100,8 +100,9 @@ export const BentoGridItem = ({
         </div>
 
         {id === 6 && (
+          // add background animation , remove the p tag
           <BackgroundGradientAnimation>
-            <div className="absolute z-50 flex items-center justify-center text-white font-bold" />
+            <div className="absolute z-50 inset-0 flex items-center justify-center text-white font-bold px-4 pointer-events-none text-3xl text-center md:text-4xl lg:text-7xl"></div>
           </BackgroundGradientAnimation>
         )}
 
@@ -159,18 +160,18 @@ export const BentoGridItem = ({
 
           {id === 6 && (
             <div className="mt-5 relative">
-              <div className={`absolute -bottom-5 right-0`}>
+              <div
+                className={`absolute -bottom-5 right-0 ${
+                  copied ? "block" : "block"
+                }`}
+              >
                 <Lottie
-                  options={{
-                    loop: copied,
-                    autoplay: copied,
-                    animationData: animationData,
-                    rendererSettings: {
-                      preserveAspectRatio: "xMidYMid slice",
-                    },
-                  }}
+                  loop={copied}
+                  autoplay={copied}
+                  animationData={animationData}
                 />
               </div>
+
               <TailwindButton
                 title={copied ? "Email copied" : "Copy my email"}
                 icon={<IoCopyOutline />}
