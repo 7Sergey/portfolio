@@ -4,6 +4,8 @@ import MyProjects from "@/components/ui/MyProjects";
 import { FloatingNav } from "@/components/ui/FloatingNav";
 // import { FaHome } from "react-icons/fa";
 import { navItems } from "@/data";
+import Clients from "@/components/Clients";
+import Experience from "@/components/Experience";
 
 export default function Home() {
   return (
@@ -18,6 +20,8 @@ export default function Home() {
         <Hero />
         <Grid />
         <MyProjects />
+        <Clients />
+        <Experience />
       </div>
     </main>
   );
