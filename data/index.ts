@@ -73,14 +73,14 @@ export const projects = [
   {
     id: 1,
     title: 'Book Library App',
-    des: 'Приложение для управления библиотекой книг, которое предоставляет пользователям возможности добавления, фильтрации, удаления и пометки книг как избранных.',
-    img: '/books-library.png',
+    des: 'A book library management application that provides users with the ability to add, filter, delete and mark books as favorites.',
+    img: '/books.png',
     iconLists: [
       '/react.svg',
       '/redux-icon.svg',
       '/typescript.svg',
       '/nodej.svg',
-      '/express.svg',
+      // '/express.svg',
       '/sass.svg',
     ],
     link: 'https://github.com/7Sergey/Book-Library-App-TypeScript',
@@ -88,7 +88,7 @@ export const projects = [
   {
     id: 2,
     title: 'Mesto',
-    des: 'Одностраничное приложение с карточками.',
+    des: 'Single page application.An application with functionality that allows you to change the name and description of a users profile, add new cards, put likes on cards and open a window with an enlarged image.',
     img: '/mesto.PNG',
     iconLists: ['/js.svg', '/html.svg', '/css.svg'],
     link: 'https://github.com/7Sergey/react-mesto-api-full-gha',
@@ -96,7 +96,7 @@ export const projects = [
   {
     id: 3,
     title: 'Russian travel',
-    des: 'Одностраничный сайт о путешествиях по стране с использованием HTML, CSS и CSS Grid Layout.',
+    des: 'A one-page website about traveling across the country using HTML, CSS and CSS Grid Layout.',
     img: '/russian-travel.PNG',
     iconLists: ['/html.svg', '/css.svg'],
     link: 'https://github.com/7Sergey/russian-travel',
