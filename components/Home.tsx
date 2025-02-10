@@ -38,7 +38,7 @@ const Hero = () => {
           <p className="text-cente md:tracking-wider md-4 text-sm md:text-lg lg:text-2xl">
             Hello. I&apos;m Sergey, a frontend developer.
           </p>
-          <Link href="#about">
+          <Link href="#projects">
             <TailwindButton
               title="Show my work"
               icon={<VscArrowRight />}
