@@ -74,7 +74,7 @@ export const projects = [
     id: 1,
     title: 'Book Library App',
     des: 'A book library management application that provides users with the ability to add, filter, delete and mark books as favorites.',
-    img: '/books.png',
+    img: '/books.PNG',
     iconLists: [
       '/react.svg',
       '/redux-icon.svg',
@@ -88,7 +88,7 @@ export const projects = [
   {
     id: 2,
     title: 'Mesto',
-    des: 'Single page application.An application with functionality that allows you to change the name and description of a users profile, add new cards, put likes on cards and open a window with an enlarged image.',
+    des: 'Single page application. An application with functionality that allows you to change the name and description of a users profile, add new cards, put likes on cards and open a window with an enlarged image.',
     img: '/mesto.PNG',
     iconLists: ['/js.svg', '/html.svg', '/css.svg'],
     link: 'https://github.com/7Sergey/react-mesto-api-full-gha',
@@ -104,7 +104,7 @@ export const projects = [
   {
     id: 4,
     title: 'How To Learn',
-    des: 'Одностраничный сайт по образу из брифа, который содержал подробные описания и иллюстрации с размерами блоков и отступов. Использовал HTML, CSS, флексбокс-вёрстку, позиционирование и продвинутую семантику языка HTML',
+    des: 'A one-page website based on the image from the brief, which contained detailed descriptions and illustrations with block sizes and indents. Used HTML, CSS, flexbox layout, positioning and advanced semantics of the HTML language',
     img: '/learn.PNG',
     iconLists: ['/html.svg', '/css.svg'],
     link: 'https://github.com/7Sergey/HowToLearn',
