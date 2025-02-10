@@ -172,6 +172,10 @@ export const technologies = [
     name: 'CSS 3',
     icon: './tech/css.png',
   },
+  // {
+  //   name: 'Sass',
+  //   icon: './sass.svg',
+  // },
   {
     name: 'JavaScript',
     icon: './tech/javascript.png',
