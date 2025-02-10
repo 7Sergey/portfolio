@@ -1,8 +1,8 @@
 export const navItems = [
   { name: 'About', link: '#about' },
   { name: 'Projects', link: '#projects' },
-  { name: 'Testimonials', link: '#testimonials' },
-  { name: 'Contact', link: '#contact' },
+  { name: 'Tech stack', link: '#tech' },
+  { name: 'Experience', link: '#experience' },
 ];
 
 export const gridItems = [
@@ -18,7 +18,7 @@ export const gridItems = [
   },
   {
     id: 2,
-    title: 'Build amazing websites',
+    title: '',
     description: '',
     className: 'lg:col-span-2 md:col-span-3 md:row-span-2',
     imgClassName: '',
@@ -111,100 +111,37 @@ export const projects = [
   },
 ];
 
-export const testimonials = [
-  {
-    quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: 'Michael Johnson',
-    title: 'Director of AlphaStream Technologies',
-  },
-  {
-    quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: 'Michael Johnson',
-    title: 'Director of AlphaStream Technologies',
-  },
-  {
-    quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: 'Michael Johnson',
-    title: 'Director of AlphaStream Technologies',
-  },
-  {
-    quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: 'Michael Johnson',
-    title: 'Director of AlphaStream Technologies',
-  },
-  {
-    quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: 'Michael Johnson',
-    title: 'Director of AlphaStream Technologies',
-  },
-];
-
-export const companies = [
+export const experience = [
   {
     id: 1,
-    name: 'cloudinary',
-    img: '/cloud.svg',
-    nameImg: '/cloudName.svg',
+    title: 'Udemi',
+    desc: 'React - The Complete Course on React, Redux and Redux Toolkit.',
+    className: 'md:col-span-2',
+    thumbnail: '/exp4.svg',
   },
   {
     id: 2,
-    name: 'appwrite',
-    img: '/app.svg',
-    nameImg: '/appName.svg',
-  },
-  {
-    id: 3,
-    name: 'HOSTINGER',
-    img: '/host.svg',
-    nameImg: '/hostName.svg',
-  },
-  {
-    id: 4,
-    name: 'stream',
-    img: '/s.svg',
-    nameImg: '/streamName.svg',
-  },
-  {
-    id: 5,
-    name: 'docker.',
-    img: '/dock.svg',
-    nameImg: '/dockerName.svg',
-  },
-];
-
-export const workExperience = [
-  {
-    id: 1,
     title: 'Frontend Engineer Intern',
     desc: 'Assisted in the development of a web-based platform using React.js, enhancing interactivity.',
     className: 'md:col-span-2',
     thumbnail: '/exp1.svg',
   },
-  {
-    id: 2,
-    title: 'Mobile App Dev - JSM Tech',
-    desc: 'Designed and developed mobile app for both iOS & Android platforms using React Native.',
-    className: 'md:col-span-2', // change to md:col-span-2
-    thumbnail: '/exp2.svg',
-  },
+
   {
     id: 3,
-    title: 'Freelance App Dev Project',
-    desc: 'Led the dev of a mobile app for a client, from initial concept to deployment on app stores.',
-    className: 'md:col-span-2', // change to md:col-span-2
-    thumbnail: '/exp3.svg',
+    title: 'Yandex Practicum',
+    desc: 'Frontend Developer сourse',
+    className: 'md:col-span-2',
+    thumbnail: '/exp2.svg',
   },
+
   {
     id: 4,
-    title: 'Lead Frontend Developer',
-    desc: 'Developed and maintained user-facing features using modern frontend technologies.',
+    title: 'Saint-Petersburg State University of Aerospace Instrumentation',
+    desc: 'Institute of Aerospace Instruments and Systems. Computer Science and Computer Engineering',
     className: 'md:col-span-2',
-    thumbnail: '/exp4.svg',
+
+    thumbnail: '/exp3.svg',
   },
 ];
 
@@ -212,13 +149,68 @@ export const socialMedia = [
   {
     id: 1,
     img: '/git.svg',
+    link: 'https://github.com/7Sergey',
   },
   {
     id: 2,
-    img: '/twit.svg',
+    img: '/telegram.png',
+    link: 'https://t.me/sergeyf7',
   },
   {
     id: 3,
-    img: '/link.svg',
+    img: '/gmail.png',
+    link: 'mailto:sergey14fedorov@gmail.com',
+  },
+];
+
+export const technologies = [
+  {
+    name: 'HTML 5',
+    icon: './tech/html.png',
+  },
+  {
+    name: 'CSS 3',
+    icon: './tech/css.png',
+  },
+  {
+    name: 'JavaScript',
+    icon: './tech/javascript.png',
+  },
+  {
+    name: 'TypeScript',
+    icon: './tech/typescript.png',
+  },
+  {
+    name: 'React JS',
+    icon: './tech/reactjs.png',
+  },
+  {
+    name: 'Redux Toolkit',
+    icon: './tech/redux.png',
+  },
+  {
+    name: 'Next',
+    icon: './next.svg',
+  },
+  {
+    name: 'Tailwind CSS',
+    icon: './tech/tailwind.png',
+  },
+  {
+    name: 'Node JS',
+    icon: './tech/nodejs.png',
+  },
+  {
+    name: 'MongoDB',
+    icon: './tech/mongodb.png',
+  },
+
+  {
+    name: 'git',
+    icon: './tech/git.png',
+  },
+  {
+    name: 'figma',
+    icon: './tech/figma.png',
   },
 ];
