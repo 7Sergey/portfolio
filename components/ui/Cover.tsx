@@ -24,7 +24,7 @@ export const Cover = ({
       setContainerWidth(ref.current?.clientWidth ?? 0);
 
       const height = ref.current?.clientHeight ?? 0;
-      const numberOfBeams = Math.floor(height / 10); // Adjust the divisor to control the spacing
+      const numberOfBeams = Math.floor(height / 10);
       const positions = Array.from(
         { length: numberOfBeams },
         (_, i) => (i + 1) * (height / (numberOfBeams + 1))
@@ -212,8 +212,6 @@ export const Beam = ({
 
 export const CircleIcon = ({
   className,
-  // eslint-disable-next-line @typescript-eslint/no-unused-vars
-  delay,
 }: {
   className?: string;
   delay?: number;
