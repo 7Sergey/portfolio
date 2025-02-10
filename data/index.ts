@@ -158,8 +158,8 @@ export const socialMedia = [
   },
   {
     id: 3,
-    img: '/gmail.png',
-    link: 'mailto:sergey14fedorov@gmail.com',
+    img: '/codewars.png',
+    link: 'https://www.codewars.com/users/7Sergey',
   },
 ];
 
