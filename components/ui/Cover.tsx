@@ -31,6 +31,7 @@ export const Cover = ({
       );
       setBeamPositions(positions);
     }
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [ref.current]);
 
   return (
