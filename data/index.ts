@@ -210,11 +210,11 @@ export const technologies = [
   },
 
   {
-    name: 'git',
+    name: 'Git',
     icon: './tech/git.png',
   },
   {
-    name: 'figma',
+    name: 'Figma',
     icon: './tech/figma.png',
   },
 ];
