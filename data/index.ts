@@ -130,7 +130,7 @@ export const experience = [
   {
     id: 3,
     title: 'Yandex Practicum',
-    desc: 'Frontend Developer сourse',
+    desc: 'Frontend Developer сourse. HTML, CSS(flex, grid layout, BEM), JavaScript, React',
     className: 'md:col-span-2',
     thumbnail: '/exp2.svg',
   },
