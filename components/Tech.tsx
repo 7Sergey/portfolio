@@ -13,7 +13,7 @@ const Tech = () => {
         className="w-10 h-10 md:w-14 md:h-14 object-contain"
       />
     ),
-    href: "#", // Можно добавить реальные ссылки
+    href: tech.link, // Можно добавить реальные ссылки
   }));
 
   return (

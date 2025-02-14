@@ -167,54 +167,61 @@ export const technologies = [
   {
     name: 'HTML 5',
     icon: './tech/html.png',
+    link: 'https://developer.mozilla.org/en-US/docs/Web/HTML',
   },
   {
     name: 'CSS 3',
     icon: './tech/css.png',
+    link: 'https://developer.mozilla.org/en-US/docs/Web/CSS',
   },
-  // {
-  //   name: 'Sass',
-  //   icon: './sass.svg',
-  // },
   {
     name: 'JavaScript',
     icon: './tech/javascript.png',
+    link: 'https://developer.mozilla.org/en-US/docs/Web/JavaScript',
   },
   {
     name: 'TypeScript',
     icon: './tech/typescript.png',
+    link: 'https://www.typescriptlang.org/',
   },
   {
     name: 'React JS',
     icon: './tech/reactjs.png',
+    link: 'https://react.dev/',
   },
   {
     name: 'Redux Toolkit',
     icon: './tech/redux.png',
+    link: 'https://redux-toolkit.js.org/',
   },
   {
     name: 'Next',
     icon: './next.svg',
+    link: 'https://nextjs.org/',
   },
   {
     name: 'Tailwind CSS',
     icon: './tech/tailwind.png',
+    link: 'https://tailwindcss.com/',
   },
   {
     name: 'Node JS',
     icon: './tech/nodejs.png',
+    link: 'https://nodejs.org/',
   },
   {
     name: 'MongoDB',
     icon: './tech/mongodb.png',
+    link: 'https://www.mongodb.com/',
   },
-
   {
     name: 'Git',
     icon: './tech/git.png',
+    link: 'https://git-scm.com/',
   },
   {
     name: 'Figma',
     icon: './tech/figma.png',
+    link: 'https://www.figma.com/',
   },
 ];
